@@ -96,7 +96,7 @@
           </mat-form-field>
           <mat-error
             *ngIf="this.registerForm.get('passwordConfirm')?.dirty && this.registerForm.hasError('passwordsNotMatching')">
-            Passwords are not matching!</mat-error>
+           A confirmação deve ser igual a senha informada previamente!</mat-error>
 
 
           <div class="button" fxFlex="100" fxFlexOffset="3" fxLayoutAlign="center center">
